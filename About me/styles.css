@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.bground2 {
+    background-image: url(./Images/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    
+}
+.ventijif {
+    border-radius: 100%;
+    padding: 40px 50px;
+
+    
+}
+.skills-content {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.textboutme {
+    font-family: 'Sora', sans-serif;
+    color: white;
+}

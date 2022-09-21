@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+/* .logovent img {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+} */
+/* .logovent {
+    padding-left: 250px;
+    padding-top: 18rem;
+    display: flex;
+    align-items: center;
+    float: left;
+
+} */
+/* .intro {
+    color: black;
+    align-items: center;
+    justify-content: center;
+    padding-top: 24rem;
+    padding-left: 600px;
+}    */
+.intro-h1 {
+    align-items: center;
+    justify-content: center;
+}
+.intro-content {
+    flex-direction: row;
+}
+.intro-content-img img {
+    border-radius: 100%;
+}
+.intro-content-text {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* kevin mulai dari sini  */
+.intro-container {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.intro-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+@media only screen and (max-width: 930px) {
+    .intro-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap !important;
+    }  
+}
+
+/* end kevin */
+
+
+
+.bground1 {
+    background-image: url(./node_modules/bootstrap/dist/images/bgron.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overview {
+    background-image: url(./node_modules/bootstrap/dist/images/bgron2jpg.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    
+}
+.bground2 {
+    background-image: url(./node_modules/bootstrap/dist/images/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    
+}
+.ventijif  {
+    border-radius: 190px;
+    padding: 40px 50px;
+    
+}
+.skills-content-text {
+    transform: scale(50%);
+    transition: 0.8s ease-in-out;
+    opacity: 0;
+}
+.skills-content-text-show {
+    transform: scale(100%);
+    opacity: 1;
+}
